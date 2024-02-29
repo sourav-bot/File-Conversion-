@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(159, 159, 243);
+    color: #fff;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensure image fills the container */
+}
+.profile-image:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.pic-1{
+    opacity: 0.5;
+    width:400px;
+    height: 200px;
+    float: right;
+    margin-right: 10%;
+
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.choose-files {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.choose-files p {
+    margin-bottom: 10px;
+}
+.store{
+    margin-right: 10%;
+}
+.convert{
+    margin-left: 20px;
+    color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: rgb(159, 159, 243);
+    color: #fff;
+    left: 0;
+    bottom:0;
+    width: 100%;
+
+}
